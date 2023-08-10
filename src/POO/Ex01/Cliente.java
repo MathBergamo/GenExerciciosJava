@@ -27,7 +27,7 @@ public class Cliente {
         System.out.println("Peso: " + peso);
         System.out.println("Altura: " + altura);
         String cpfString = String.valueOf(cpf);
-        System.out.println(cpfString.substring(0,3) + "." + cpfString.substring(3,6) + "." + cpfString.substring(6,9) + "-"
+        System.out.println("CPF: "+ cpfString.substring(0,3) + "." + cpfString.substring(3,6) + "." + cpfString.substring(6,9) + "-"
                 + cpfString.substring(9));
     }
 
